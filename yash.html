@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Basics</title>
+</head>
+
+<body>
+    <!-- Heading Tag -->
+    <h1>Today i am going to make a FORM</h1>
+    <!-- Paragraph Tag -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti veniam culpa quas quibusdam at. Tempore
+        aspernatur delectus quibusdam labore atque mollitia iure. Iste veritatis minus autem dicta deleniti molestiae
+        placeat?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+    <!-- Link Tag -->
+    <P><strong>You can go and check some links:-</strong></P>
+    <a href="https://thewebdev.tech/" target="_blank">-TWD link</a>
+    <br>
+    <a href="https://www.youtube.com/channel/UCRf7mazcufqZxd2pR3oQJuQ" target="_blank">-TWD YT</a>
+    <br>
+    <a href="https://github.com/sengaryash" target="_blank">-My GitHub</a>
+    <hr>
+    <br>
+    <!-- IMAGE TAG -->
+    <h4>#This is my Profile Image</h4>
+    <img src="Yashvendra photo.jpeg" alt="computer" width="200" height="100">
+    <br>
+    <div>
+        <label for="Ppicture"><strong>-Upload your Profile Image Here:</strong></label>
+        <input type="file" name="pimage" id="pimage">
+    </div>
+    <hr>
+    <br>
+    <!-- List Tag -->
+    <p>#Now We are going to take some <strong>INFROMATION</strong> like:-</p>
+    <ul>
+        <li>Name</li>
+        <li>Age</li>
+        <li>Email</li>
+
+    </ul>
+    <p>OR</p>
+    <ol>
+        <li>Name</li>
+        <li>Age</li>
+        <li>Email</li>
+    </ol>
+    <hr>
+    <br>
+    <TABle>
+        <THead>
+            <TR>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </TR>
+        </THead>
+        <TBody>
+            <tr>
+                <td>Yashvendra</td>
+                <td>21</td>
+                <td>sengaryashvds10@gmail.com</td>
+            </tr>
+            <tr>
+                <td>jacky</td>
+                <td>45</td>
+                <td>jackyus12@gmail.com</td>
+            </tr>
+        </TBody>
+    </TABle>
+    <hr>
+    <br>
+    <!-- FORM TAG -->
+    <FORM>
+        <div>
+            <label for="Name">-NAME:</label>
+            <input type=" text" id="name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="Age">-AGE:</label>
+            <input type="number" id="Age" name="Age" min="0" max="150" step="1" value="21">
+        </div>
+        <br>
+        <div>
+            <label for="color">-Favorite-Color:</label>
+            <select name="color" id="color">
+                <option value="purple">purple</option>
+                <option value="red">Red</option>
+                <option value="black">black</option>
+            </select>
+            <br>
+            <br>
+            <div>
+                <label for="fmonth">-Your Favorite Month:</label>
+                <input type="month" name="fmonth" id="fmonth">
+            </div>
+            <br>
+            <div>
+                <label for="fweek">-Your Favorite Week:</label>
+                <input type="week" name="fweek" id="fweek">
+            </div>
+            <br>
+            <div>
+                <label for="Strength"><strong>-Choose your Strength range(between 0 and 100):</strong></label>
+                <input type="range" id="Strength" name="Strength" min="0" max="100" value="30">
+            </div>
+            <br>
+            <div>
+                <label for="gsearch">-Search Google:</label>
+                <input type="search" id="gsearch" name="gsearch">
+            </div>
+            <br>
+            <div>
+
+            </div>
+            <div>
+                <h4>#Which field do you prefer:-</h4>
+                <input type="checkbox" name="government-field" id="government-field" value="government-field">
+                <label for="field">Government-field</label>
+                <input type="checkbox" name="IT-field" id="IT-field" value="IT-field">
+                <label for="field">IT-field</label>
+            </div>
+            <br>
+            <div>
+                <h4>#Choose Your Gender:-</h4>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="Gender">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="Gender">Female</label>
+                <input type="radio" name="gender" id="Other" value="Other">
+                <label for="Gender">Other</label>
+            </div>
+        </div>
+
+        <br>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="Time of Birth">Time of Birth (Optional)::</label>
+            <input type="time" id="birthdaytime" name="birthdaytime">
+            <p>
+            <h4>IF Upper Option Is not working then use:-</h4>
+            </p>
+            <label for="birthdaytime">-Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        </div>
+        <br>
+        <hr>
+        <div>
+            <p>
+            <h4>Contact information:-</h4>
+            </p>
+            <label for="email">-Enter your email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="phone">-Enter a phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="12345-45678" pattern="[0-9]{5}-[0-9]{5}"
+                required><br><br>
+            <small>(Format: 12345-45678)</small><br><br>
+        </div>
+        <br>
+        <div>
+            <label for="Linkedinid">-Enter your lINKEDIN id url:</label>
+            <input type="url" name="Linkedinid" id="Linkedinid">
+            <BR></BR>
+            <label for="github">-Enter your GITHUB id url:</label>
+            <input type="url" name="github" id="github">
+        </div>
+        <br>
+        <div>
+            <label for="myfile">-Upload Resume:</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="message">#Feed-back:</label>
+            <textarea name="message" id="message" maxlength="250"></textarea>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <input type="submit" value="save & submit">
+            <p></p>
+            <hr>
+            <input type="reset">
+        </div>
+
+    </FORM>
+    <hr>
+    <br>
+</body>
+
+</html>
